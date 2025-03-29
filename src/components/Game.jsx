@@ -33,7 +33,7 @@ const rollDiceFunction = () => {
         setTotalScore((prev) => prev + randomNumber)
     }
     else{
-      setTotalScore((prev) => prev - 1)
+      setTotalScore((prev) => prev - 2)
     }
     setSelectedNumber()
 }
